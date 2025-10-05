@@ -49,8 +49,8 @@ export const Welcome = ({
       </Button>
       <footer className="fixed bottom-5 left-0 z-20 flex w-full items-center justify-center">
         <p className="text-fg1 max-w-prose pt-1 text-xs leading-5 font-normal text-pretty md:text-sm">
-          Uplifting Pakistan's Remote Areas through 'Reliable' and 'Easliy
-          Accessible' Healthcare with
+          Uplifting Pakistan&apos;s Remote Areas through &apos;Reliable&apos;
+          and &apos;Easliy Accessible&apos; Healthcare with
           <span> </span>{" "}
           <span className="underline">
             AI powered Telephony/Web Voice AI Agents
@@ -58,8 +58,8 @@ export const Welcome = ({
           .
         </p>
         <p>
-          AI powered Telephony/Web Voice AI Agents&apos; features are designed to
-          enhance your business&apos;s communication.
+          AI powered Telephony/Web Voice AI Agents&apos; features are designed
+          to enhance your business&apos;s communication.
         </p>
       </footer>
     </section>

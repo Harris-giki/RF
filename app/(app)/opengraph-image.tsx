@@ -186,6 +186,7 @@ export default async function Image() {
             src={wordmarkSrcBase64}
             width={wordmarkSize.width}
             height={wordmarkSize.height}
+            alt="Wordmark"
           />
         </div>
         {/* logo */}
@@ -203,6 +204,7 @@ export default async function Image() {
             src={logoSrcBase64}
             width={logoSize.width}
             height={logoSize.height}
+            alt="Logo"
           />
         </div>
         {/* title */}
