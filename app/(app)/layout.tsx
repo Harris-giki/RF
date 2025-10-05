@@ -1,5 +1,5 @@
-import { headers } from 'next/headers';
-import { getAppConfig } from '@/lib/utils';
+import { headers } from "next/headers";
+import { getAppConfig } from "@/lib/utils";
 
 interface AppLayoutProps {
   children: React.ReactNode;
@@ -19,9 +19,14 @@ export default async function AppLayout({ children }: AppLayoutProps) {
           className="scale-100 transition-transform duration-300 hover:scale-110"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/radiance.png" alt="Radiance Logo" width={120} height={40} />
+          <img
+            src="/radiance.png"
+            alt="Radiance Logo"
+            width={120}
+            height={40}
+          />
         </a>
-        </header>
+      </header>
       {children}
     </>
   );

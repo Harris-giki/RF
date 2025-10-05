@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button';
-import { cn } from '@/lib/utils';
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 interface WelcomeProps {
   disabled: boolean;
@@ -12,14 +12,14 @@ export const Welcome = ({
   startButtonText,
   onStartCall,
   ref,
-}: React.ComponentProps<'div'> & WelcomeProps) => {
+}: React.ComponentProps<"div"> & WelcomeProps) => {
   return (
     <section
       ref={ref}
       inert={disabled}
       className={cn(
-        'bg-background fixed inset-0 mx-auto flex h-svh flex-col items-center justify-center text-center',
-        disabled ? 'z-10' : 'z-20'
+        "bg-background fixed inset-0 mx-auto flex h-svh flex-col items-center justify-center text-center",
+        disabled ? "z-10" : "z-20",
       )}
     >
       <svg
@@ -39,13 +39,23 @@ export const Welcome = ({
       <p className="text-fg1 max-w-prose pt-1 leading-6 font-medium">
         Chat with Radiance now!
       </p>
-      <Button variant="primary" size="lg" onClick={onStartCall} className="mt-6 w-64 font-mono !bg-[#1fd5f9] text-black dark:text-white">
+      <Button
+        variant="primary"
+        size="lg"
+        onClick={onStartCall}
+        className="mt-6 w-64 font-mono !bg-[#1fd5f9] text-black dark:text-white"
+      >
         {startButtonText}
       </Button>
       <footer className="fixed bottom-5 left-0 z-20 flex w-full items-center justify-center">
         <p className="text-fg1 max-w-prose pt-1 text-xs leading-5 font-normal text-pretty md:text-sm">
-          Uplifting Pakistan's Remote Areas through 'Reliable' and 'Easliy Accessible' Healthcare with
-         <span> </span> <span className="underline">AI powered Telephony/Web Voice AI Agents</span> .
+          Uplifting Pakistan's Remote Areas through 'Reliable' and 'Easliy
+          Accessible' Healthcare with
+          <span> </span>{" "}
+          <span className="underline">
+            AI powered Telephony/Web Voice AI Agents
+          </span>{" "}
+          .
         </p>
       </footer>
     </section>
