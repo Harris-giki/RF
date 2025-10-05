@@ -57,10 +57,6 @@ export const Welcome = ({
           </span>{" "}
           .
         </p>
-        <p>
-          AI powered Telephony/Web Voice AI Agents&apos; features are designed
-          to enhance your business&apos;s communication.
-        </p>
       </footer>
     </section>
   );
